@@ -20,7 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+SorensenViewTool::Renderer.copyright 'Hunter Sorensen', 'All rights reserved'
+```
 
 ## Development
 
