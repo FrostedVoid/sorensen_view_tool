@@ -1,5 +1,5 @@
-class SorensenViewTool
-  module Renderer
+module SorensenViewTool
+  class Renderer
     def self.copyright name, msg
       "&copy; #{Time.now.year} | <b>#{name}</b> #{msg}".html_safe
     end
